@@ -5,22 +5,27 @@
         <meta http-equiv="x-UA-compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Portifólio</title>
+        <link rel="stylesheet" href="style.css"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap" rel="stylesheet">
 
     </head>
 
         <body>
             <header>
+                <div class="container">
+            <div class="linha">
 
                 <!--Caixa de perfil-->
-                <div>
+                <div class="coluna coluna-esquerda">
                     <figure>
                         <img src="" alt="Wilson Bella">
-                        <figcaption>Wilson Bella de Oliveira</figcaption>
+                        <figcaption class="hidden">Wilson Bella de Oliveira</figcaption>
                     </figure>
                 </div>
 
                 <!--Informações pessoais-->
-                <div>
+                <div class="coluna coluna-direita">
                     <h1>Wilson Bella de Oliveira</h1>
                     <p>Full Stack Developer</p>
                         <ul>
@@ -36,12 +41,15 @@
 
                         </ul>
                 </div>
+            </div>
+            </div>
             </header>
 
-            <main>
-
+        <main>
+            <div class="container">
+            <div class="linha">
                 <!--Conteúdo lado direito-->
-                <div>
+                <div class="coluna coluna-direita">
                     <section>
                         <h2>Perfil profissional</h2>
                         <p></p>
@@ -72,15 +80,16 @@
                         </ul>
                     </section>
                 </div>
+            </div>
                 <!--Conteúdo lado esquerdo-->
-                <div>
+                <div class="coluna coluna-esquerda">
                     <section>
                         <h2>Experiência</h2>
                         <ul>
                             <li>
                                 <h3>Empreendedor</h3>
                                 <strong>Autonômo - Tempo integral - São Paulo - SP</strong>
-                                <p>De 2000 até o momento(21anos) </p>
+                                <p>De <strong>2000 até o momento</strong>(21anos) </p>
                             </li>
                         </ul>
                     </section>
@@ -89,7 +98,7 @@
                         <ul>
                             <li>
                                 <h3>Tecnologia da Informação (com foco em desenvolvimento de software)</h3>
-                                <p>Univesp - 2020 a 2023 - bacharelado</p>
+                                <p>Univesp - <strong>2020 a 2023</strong> - bacharelado</p>
                             </li>
                             <li>
                                 <h3>Full Stack Developer</h3>
@@ -97,22 +106,22 @@
                             </li>
                             <li>
                                 <h3>Desenvolvimento de Sistemas</h3>
-                                <p>Etec Irmã Agostina - 2018 a 2019(Curso técnico)</p>
+                                <p>Etec Irmã Agostina - <strong>2018 a 2019</strong>(Curso técnico)</p>
                             </li>
                         </ul>
                     </section>
                 </div>
-                
+            </div>   
 
-            </main>
+        </main>
             
             <footer>
-                <div>
+                <div class="container">
 
                     <nav>
-                        <ul>
+                        <ul class="info-contato">
                             <li>
-                                <a href="mailto:wilsonbella880@gmail.com">exemplo de email</a>
+                                <a href="mailto:wilsonbella880@gmail.com">wilsonbella880@gmail.com</a>
                             </li>
                             <li>
                                 <a href="tel:5511930116849">(11)930116849</a>
@@ -126,14 +135,14 @@
                     </nav>
 
                     <nav>
-                        <ul>
+                        <ul class="redes-socias">
                             <li>
-                                <a href="#"></a>
+                                <a href="https://www.linkedin.com/in/wilson-bella-a89675161/">Linkedin</a>
                                 <img src="" alt="linkedin">
                                 <p>Linkedin</p>
                             </li>
                             <li>
-                                <a href="#"></a>
+                                <a href="https://github.com/wilsonbella/">GitHub</a>
                                 <img src="" alt="GitHub">
                                 <p>GitHub</p>
                             </li>
