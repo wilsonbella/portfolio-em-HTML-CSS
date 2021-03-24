@@ -3,110 +3,122 @@
     max-width: 1125px;
     margin: 0 auto;
     padding: 30px;
+}
 
-}
-.hidden{
-    display: none;
-}
 .linha{
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
     justify-content: space-between;
 }
+
 .coluna{
     flex-basis: 49%;
 }
+
+.hidden{
+    display: none;
+}
+
+
+/* BODY */
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
 
+/* HEADER */
 header{
-    background-color:#45dbfc;
+    background-color: #45dbfc;
     padding-top: 30px;
 }
-header.container{
+header .container{
     background-color: white;
- 
 }
-header.linha{
+header .linha{
     align-items: center;
 }
-header.coluna{
-
-}
-header.coluna-esquerda{
+header .coluna{}
+header .coluna-esquerda{
     flex-basis: 30%;
 }
-header.coluna-direita{
+header .coluna-direita{
     flex-basis: 70%;
 }
-header.coluna figure{}
-header.coluna img{
+header .coluna figure{}
+header .coluna img{
     max-width: 250px;
     border-radius: 100%;
 }
-header.coluna h1{
+header .coluna h1{
     font-size: 1.5rem;
 }
-header.coluna p{
+header .coluna p{
     font-size: 1rem;
     color: #636363;
 }
-header.coluna ul li{
-    margin: 16px 0 0
+header .coluna ul{
+    margin: 16px 0 0;
 }
-header.coluna ul li a{
+header .coluna ul li{
+    margin: 0 0 12px;
+}
+header .coluna ul li a{
     font-size: 1rem;
     color: black;
 }
 
+
+/* FOOTER */
+footer{}
+footer .container{}
+footer nav{}
+footer nav ul{}
+footer nav ul li{}
+footer nav ul li a{}
+footer nav .info-contato{}
+footer nav .info-contato li{}
+footer nav .info-contato li a{}
+footer nav .redes-sociais{}
+footer nav .redes-sociais li{}
+footer nav .redes-sociais li a{}
+footer nav .redes-sociais li a img{}
+footer nav .redes-sociais li a img p{}
+
+
+/* PÁGINA INICIAL */
 main{}
-main.container{}
-main.linha{}
-main.coluna{}
-main.coluna-esquerda{}
-main.coluna-direita{}
-main.coluna section{
+main .container{}
+main .linha{}
+main .coluna{}
+main .coluna-esquerda{}
+main .coluna-direita{}
+main .coluna section{
     border: 1px solid #d4e9ff;
     margin: 0 0 20px;
     padding: 20px;
     min-height: 187px;
 }
-main.coluna section h2{
+main .coluna section h2{
     font-size: 1.3rem;
+    margin: 0 0 15px;
 }
-main.coluna section p{
+main .coluna section p{
     font-size: 0.9rem;
-    color:#636363;
+    color: #636363;
     line-height: 1.5;
-
 }
-main.coluna section ul{}
-main.coluna section ul li{}
-main.coluna section ul li h3{}
-main.coluna section ul li strong{
+main .coluna section ul{}
+main .coluna section ul li{
+    margin: 0 0 12px;
+}
+main .coluna section ul li h3{
+    font-size: 1.1rem;
+}
+main .coluna section ul li strong{
     font-size: 0.9rem;
     font-weight: 500;
     margin: 5px 0 10px;
-    display:inline-block;
+    display: inline-block;
 }
-main.coluna section ul li p{}
-
-footer{}
-footer.container{}
-footer nav{}
-footer nav ul{}
-footer nav ul li{}
-footer nav ul li a{}
-footer nav.info-contato{}
-footer nav.info-contato li{}
-footer nav.info-contato li a{}
-footer nav.info-redes-socias{}
-footer nav.info-redes-socias li{}
-footer nav.redes-socias li a{}
-footer nav.redes-socias li a img{}
-footer nav.redes-socias li a img p{}
-
-
+main .coluna section ul li p{}
